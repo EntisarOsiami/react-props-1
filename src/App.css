@@ -68,8 +68,7 @@ body {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
-    width: 300px;
-    max-width: 300px;
+    width: 350px;
     margin: 1rem;
     overflow: hidden;
 }
@@ -107,7 +106,7 @@ body {
     color: #555;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .cardContainer {
         grid-template-columns: 1fr 1fr;
     }
@@ -128,7 +127,7 @@ body {
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
     .cardContainer {
         grid-template-columns: 1fr;
     }
