@@ -125,6 +125,10 @@ body {
     .brand-nav {
         font-size: 1.25rem;
     }
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
 }
 
 @media (max-width: 480px) {
