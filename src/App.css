@@ -106,7 +106,7 @@ body {
     color: #555;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .cardContainer {
         grid-template-columns: 1fr 1fr;
     }
@@ -131,7 +131,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .cardContainer {
         grid-template-columns: 1fr;
     }
